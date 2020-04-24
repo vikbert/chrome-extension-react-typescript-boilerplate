@@ -11,5 +11,8 @@
     "rootDir": "src",
     "sourceMap": true,
     "target": "es5"
+  },
+  "rules": {
+    "no-unused-vars": "off"
   }
 }

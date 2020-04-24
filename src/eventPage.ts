@@ -3,9 +3,7 @@ chrome.runtime.onMessage.addListener((request) => {
     // onMessage must return "true" if response is async.
     const isResponseAsync = false;
 
-    if (request.popupMounted) {
-        console.log("### eventPage notified that Popup.tsx has mounted.");
-    }
+    console.log(request);
 
     return isResponseAsync;
 });

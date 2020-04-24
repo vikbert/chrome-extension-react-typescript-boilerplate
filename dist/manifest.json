@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Rolex V1.0 @xzhou",
-  "description": "A CarSales tool that assigns the selected roles to current authenticated user.",
+  "name": "Chrome extension template V1.0 @xzhou",
+  "description": "Chrome template build with Typescript + React",
   "version": "1.0.0",
   "browser_action": {
     "default_icon": "logo.png",
@@ -19,5 +19,5 @@
     "48": "logo.png",
     "128": "logo.png"
   },
-  "permissions": [ "cookies","<all_urls>","tabs"]
+  "permissions": ["cookies", "<all_urls>", "tabs"]
 }
