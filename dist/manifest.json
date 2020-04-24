@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rolex V1.0 @xzhou",
+  "description": "A CarSales tool that assigns the selected roles to current authenticated user.",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["js/eventPage.js"],
+    "persistent": false
+  },
+
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": [ "cookies","<all_urls>","tabs"]
+}
