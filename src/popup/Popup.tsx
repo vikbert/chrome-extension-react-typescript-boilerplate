@@ -6,7 +6,7 @@ import { useEvent } from "../hooks/useEvent";
 export default function Popup(): JSX.Element {
   useEvent("Popup mounted");
   return (
-    <div className={"popup"}>
+    <div className={"popup popup--small"}>
       <App />
     </div>
   );

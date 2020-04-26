@@ -28,9 +28,6 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.11",
-    "@material-ui/icons": "^4.9.1",
-    "querystring": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
