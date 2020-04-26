@@ -2,7 +2,7 @@ import React from "react";
 import "./app.scss";
 
 const App = (): JSX.Element => {
-  return <h1>Hello, World!</h1>;
+  return <div className='app'>Hello, World!</div>;
 };
 
 export default App;
