@@ -1,11 +1,10 @@
 import React from "react";
-import "weui";
-import "../weui/weui.less";
-import NavBarDemo from "./NavBarDemo";
-
+import "./app.scss";
 const App = (): JSX.Element => {
   return (
-    <NavBarDemo/>
+    <div className="content">
+      <h2>Hello, World!</h2>
+    </div>
   );
 };
 
